@@ -1,0 +1,73 @@
+body{
+    background-image: url('./assets/home.jpg') ;
+    
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+main{
+    height: 100%;
+}
+main h2{
+    color: white;
+}
+.temp{
+    font-size: 40px;
+}
+.data{
+    text-align: center;
+    background: rgba(0, 0, 0, .5);
+    color: whitesmoke;
+    border-radius: 20px;
+    padding: 3% 2% 3% 2%;
+   
+
+    width: 30%;
+    margin-left: 33%;
+    margin-top: 25%;
+    justify-items: center;
+}
+form{
+    float: right;
+}
+.condition{
+    margin-top: 0%;
+}
+.nav-item{
+    position: relative;
+    display: none;
+}
+.state{
+    margin-left: 2%;
+    margin-bottom: 2%;
+    text-align: left;
+   
+}
+.data:hover{
+    cursor: pointer;
+    
+}
+span{
+    border: 100px;
+    width: 2%;
+    border-color: white;
+}
+.humadity{
+    margin-bottom: 2%;
+
+    margin-right: 2%;
+    text-align: right;
+    margin-top: -50px;
+}
+.vis_km{
+    margin-right: 2%;
+    text-align: right;
+    margin-bottom: 5%;
+}
+.below{
+    flex-direction: column;
+}
+.city{
+    margin-left: 2%;
+   
+    text-align: left;
+}
